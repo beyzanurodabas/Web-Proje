@@ -5,6 +5,7 @@
   -Kendimi ve memleketimi tanıtan kişisel bir web sitesi geliştirmek.
   
   
+  
   PROJENİN İÇERİĞİ :
   
   -HAKKINDA SAYFASI  :Giriş sayfası niteliğinde olacak.Kendimi tanıtacağım.
@@ -20,6 +21,7 @@
   -İLETİŞİM SAYFASI  :Form elemanlarını içerecek.
   
   -LOGİN SAYFASI     :Kullanıcının girdiği bilgiler doğruysa "hoşgeldiniz" mesajı veren sayfa oluşturulacak.
+  
   
   
   

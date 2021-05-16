@@ -1,0 +1,75 @@
+/*
+#sosyal{
+width: 180px;
+height: 40px;
+border-style: dotted;
+border-width: 1px;
+background-color: rgb(255, 255, 255);
+float: right;
+position: relative;
+top: 50px;
+right: 10px;
+
+
+}
+#sayfa{
+width: 400px;
+min-height: 600px;
+border-style: solid;
+border-width: 1px;
+margin: auto;
+
+}
+
+#banner{
+    width: 398px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.308);
+    margin: auto;
+}
+
+#logo{
+
+width: 100px;
+height: 80px;
+border-style: none;
+border-width: 1px;
+background-color: rgb(255, 255, 255);
+position: relative;
+top: 10px;
+left: 10px;
+float: left;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+} */
+#ikon{
+width: 50px;
+height: 45px;
+}
+#medya{
+    border-style: solid;
+    background-color: rgb(145, 150, 167);
+    float: left;
+    position: relative;
+    top: 25px;
+    border-width: medium;
+
+}
+/*#card{
+    
+}
+#foto{
+  position: absolute;
+  left: 700px;
+  top: 30px;
+  width: 250px;
+  height: 250px;
+
+
+
+}*/

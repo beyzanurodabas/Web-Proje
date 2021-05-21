@@ -81,7 +81,7 @@
 <br><br><br>
 
 
-<!--<div class="container">
+<div class="container">
 			
     <div class="row">
 
@@ -104,19 +104,22 @@
               var name = getParameterByName('name');
               var email = getParameterByName('email');
               var message = getParameterByName('message');
-
+              var sehir=getParameterByName('sehir');
+              var soyisim=getParameterByName('soyisim');
+              var cinsiyet=getParameterByName('cinsiyet');
+              var ogrenci=getParameterByName('ogrenci');
         </script>
 
         <table class="table">
-                <thead class="table-info">
+               <!-- <thead class="table-info">-->
                     <tr>
-                        <th>Başarılı Bir şekilde Gönderdiniz :)</th>
+                        <th><strong> Gönderdiğiniz Veriler :</strong></th>
                     </tr>
-                </thead>
+                <!--</thead>-->
 
                 <tbody>
                     <tr>
-                        <td>İsminiz</td>
+                        <td>İsminiz :</td>
                         <td>
                             <script>document.write(name);
                             </script>
@@ -124,7 +127,17 @@
                     </tr>
 
                     <tr>
-                        <td>E-Mail</td>
+                      <td>Soyisminiz :</td>
+                      <td>
+                          <script>document.write(soyisim);
+                          </script>
+                      </td>
+                  </tr>
+
+
+
+                    <tr>
+                        <td>E-Mail :</td>
                         <td>
                             <script>document.write(email);
                             </script>
@@ -132,12 +145,40 @@
                     </tr>
 
                     <tr>
-                        <td>Mesajınız</td>
+                        <td>Mesajınız :</td>
                         <td>
                             <script>document.write(message);
                             </script>
                         </td>
                     </tr>
+
+                    
+
+                  <tr>
+                    <td>Yaşadığınız Şehir:</td>
+                    <td>
+                        <script>document.write(sehir);
+                        </script>
+                    </td>
+                </tr>
+
+                
+                <tr>
+                  <td>Cinsiyetiniz :</td>
+                  <td>
+                      <script>document.write(cinsiyet);
+                      </script>
+                  </td>
+              </tr>
+
+              
+              <tr>
+                <td>Hobileriniz :</td>
+                <td>
+                    <script>document.write(ogrenci);
+                    </script>
+                </td>
+            </tr>
 
                 </tbody>
             
@@ -148,10 +189,8 @@
 
 </div>
 
--->
+
    
-
-
 
 
 

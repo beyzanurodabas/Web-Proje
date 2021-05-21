@@ -117,6 +117,24 @@ border-color: black;
     font-style: italic;
     color:black;
     box-shadow: 10px 10px 10px rgb(54, 1, 1) ;
-    font-weight: bolder;
-    font-style: italic;
+    
 }
+#mirbas{
+
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: bolder;
+    background-color: gray;
+    box-shadow:10px 10px 10px indigo;
+
+}
+#lobaslik{
+border-style: solid;
+
+    border-radius: 3px;
+    font-weight: bolder;
+    background-color: gray;
+    box-shadow:10px 10px 10px indigo;
+
+}
+

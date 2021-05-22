@@ -47,9 +47,11 @@ float: left;
     padding: 0px;
 
 } */
+
+
 #ikon{
-width: 50px;
-height: 45px;
+width: 40px;
+height: 35px;
 }
 #medya{
     border-style: inset;
@@ -108,6 +110,29 @@ height: 400px;
 border-color: black;
 
 }
+#foto3{
+    border:  solid #CCCCCC;
+    background-color: #FFFFFF;
+    margin: 10px 15px;
+    object-fit: fill;
+    width: 600px;
+    height: 600px;
+    
+
+
+
+}
+#foto2{
+    border:  solid #CCCCCC;
+    background-color: #FFFFFF;
+    margin: 3px 3px 3px 3px;
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+    border-color: white;
+
+
+}
 #baslik3{
     
 
@@ -128,13 +153,5 @@ border-color: black;
     box-shadow:10px 10px 10px indigo;
 
 }
-#lobaslik{
-border-style: solid;
 
-    border-radius: 3px;
-    font-weight: bolder;
-    background-color: gray;
-    box-shadow:10px 10px 10px indigo;
-
-}
 

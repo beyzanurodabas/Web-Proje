@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body background="https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
     
     <nav class="navbar navbar-expand-md  bg-dark navbar-dark ">
      <div class="container">
@@ -104,13 +104,15 @@
               var name = getParameterByName('name');
               var email = getParameterByName('email');
               var message = getParameterByName('message');
+              var adres=getParameterByName('adres');
+              var date=getParameterByName('date');
               var sehir=getParameterByName('sehir');
               var soyisim=getParameterByName('soyisim');
               var cinsiyet=getParameterByName('cinsiyet');
               var ogrenci=getParameterByName('ogrenci');
         </script>
 
-        <table class="table">
+        <table class="table"  border="7px" >
                <!-- <thead class="table-info">-->
                     <tr>
                         <th><strong> Gönderdiğiniz Veriler :</strong></th>
@@ -152,7 +154,23 @@
                         </td>
                     </tr>
 
-                    
+                    <tr>
+                      <td>Tam Adresiniz :</td>
+                      <td>
+                          <script>document.write(adres);
+                          </script>
+                      </td>
+                  </tr>
+
+
+
+                    <tr>
+                      <td>Doğum Tarihiniz :</td>
+                      <td>
+                          <script>document.write(date);
+                          </script>
+                      </td>
+                  </tr>
 
                   <tr>
                     <td>Yaşadığınız Şehir:</td>

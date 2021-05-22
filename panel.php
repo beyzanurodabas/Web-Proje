@@ -21,11 +21,10 @@
  <link rel="stylesheet" href="bootstrap.css" >
 
 
-
-
 </head>
+<body background="https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
 
-<body>
+ <!--<body background="https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">-->
 
 <nav class="navbar navbar-expand-md  bg-dark navbar-dark ">
      <div class="container">
@@ -85,7 +84,7 @@
 
 <!--BASLİK-->
 <center>
-<h1 id="lobaslik" > Panel </h1><br><br>
+<h1 ><strong> Panel </strong></h1><br><br>
 </center>
 
 		<div class="container">
@@ -94,7 +93,7 @@
 
 				include("kisiler.php");
 
-
+//if komutuyla eğer formdaki user ve password kısmı post edilirse bu komutlar calışsın
 				if (($_POST["email"] == $user) and ($_POST["password"] == $pass))
 				{
 			       $_SESSION["login"] = "true";
@@ -109,8 +108,8 @@
 				else 
 				{
 			            echo "Kullancı Adı veya Şifre Yanlış !<br>";
-			            echo " TEKRAR DENE ! ";
-			            header("Refresh: 2; url=login.php");
+			            echo " Login Sayfasına Yönlendiriliyorsunuz. ";
+			            header('Refresh: 2; url="login.php"');
 			    }
 			
 			?>
